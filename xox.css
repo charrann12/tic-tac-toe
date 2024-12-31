@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
@@ -48,11 +49,13 @@ nav ul{
 
 .gameInfo{
     padding:  0 34px;
+    font-family: "Roboto", serif;
 }
 
 
 .imgbox img{
-    display: none;
+    width: 0;
+    transition: width 1s ease-in-out;
 }
 
 .bt-0{
@@ -69,4 +72,21 @@ nav ul{
 
 .br-0{
     border-right: 0;
+}
+
+.info{
+    margin:0 23px ;
+    padding:6px 14px ;
+    font-size: 25px;
+}
+#reset{
+    margin: 0 23px;
+    padding: 6px 14px;
+    border-radius: 6px;
+    background-color: #ffe5ff;
+    cursor:pointer;
+    font-size: 25px;
+    font-weight: bolder;
+    border: 1px solid black;
+
 }
