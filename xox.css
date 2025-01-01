@@ -90,3 +90,22 @@ nav ul{
     border: 1px solid black;
 
 }
+
+@media  screen  and (max-width: 800px) {
+    .gameContainer{
+        flex-wrap: wrap;
+
+    }
+
+    .gameInfo{
+        margin-top: 34px;
+    }
+    .gameInfo h1{
+        font-size: 1.8 rem;
+    }
+
+    .container{
+        grid-template-columns: repeat(3, 16vw);
+        grid-template-rows: repeat(3, 16vw);
+    }
+}
